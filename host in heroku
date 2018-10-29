@@ -1,0 +1,7 @@
+heroku login
+git init
+heroku git:remote -a ouvrier
+git add .
+git commit -am 'better'
+git push heroku master
+https://ouvrier.herokuapp.com/
